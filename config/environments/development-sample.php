@@ -10,6 +10,7 @@ $WP_ENVIRONMENT = array(
 	'db_password' => '',
 	'db_host' => 'localhost',
 	'wp_lang' => '',
-	'wp_debug' => true
+	'wp_debug' => true,
+	'name' => 'development'
 );
 ?>

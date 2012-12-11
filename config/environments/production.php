@@ -5,6 +5,7 @@ $WP_ENVIRONMENT = array(
 	'db_password' => '',
 	'db_host' => '',
 	'wp_lang' => '',
-	'wp_debug' => false
+	'wp_debug' => false,
+	'name' => 'production'
 );
 ?>
