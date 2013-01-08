@@ -15,7 +15,7 @@ However, if you already have an existing project, do this:
 
 1. Download the repo and put the `config` folder in the root directory.
 2. The (possibly) tricky part is updating your current `wp-config.php` to enable the aforementioned "pluggable" configuration values.
-Essentially, it's just a matter of manually extracting the values, `require`'ing the setup from `config/bootstrap.php` in `wp-config.php` and then inserting the extracted values in each `_<environment>_.php` file in `config/environments`.
+Essentially, it's just a matter of manually extracting the values, `require`'ing the setup from `config/bootstrap.php` in `wp-config.php` and then inserting the extracted values in each `<environment>.php` file in `config/environments`.
 
 ## Work with multiple environments
 
@@ -69,6 +69,6 @@ I usually don't want to include the Google Analytics script when I work locally,
 
 ## `.gitignore` template
 
-The repo also includes a template .gitignore. Stick it up your project's root folder, and the WP core files will be ignored, along with other files you don't want to track.
+The repo also includes a template `.gitignore`. Stick it up your project's root folder, and the WP core files will be ignored, along with other files you don't want to track.
 
-Just rename it to `.gitignore`, and add your own files as you create them.
+Full credit to [Joe Bartlett (@jdbartlett)](https://gist.github.com/jdbartlett) for the template, originally at [https://gist.github.com/444295]()
