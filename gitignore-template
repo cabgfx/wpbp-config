@@ -36,5 +36,6 @@ wp-content/themes/*
 
 # Other misc. files
 
+.DS_Store
 !config/
 config/environments/development.php
