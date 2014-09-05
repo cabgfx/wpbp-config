@@ -10,8 +10,6 @@ define('DB_USER',     $WP_ENVIRONMENT['db_user']);
 define('DB_PASSWORD', $WP_ENVIRONMENT['db_password']);
 define('DB_HOST',     $WP_ENVIRONMENT['db_host']);
 
-define('WPLANG',      $WP_ENVIRONMENT['wp_lang']);
-
 define('WP_DEBUG',    $WP_ENVIRONMENT['wp_debug']);
 
 define('WPBP_ENV',    $WP_ENVIRONMENT['name']);
