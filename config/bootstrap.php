@@ -1,5 +1,5 @@
 <?php
-if ($_SERVER['REMOTE_ADDR']=='::1' || ereg("^192|10|127", $_SERVER['REMOTE_ADDR']) ) {
+if (preg_match("/^((192|10|127)\.)|::1/", $_SERVER['REMOTE_ADDR']) ) {
     require_once 'environments/development.php';
 } else {
     require_once 'environments/production.php';
