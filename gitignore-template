@@ -39,3 +39,11 @@ wp-content/themes/*
 .DS_Store
 !config/
 config/environments/development.php
+config/environments/staging.php
+!README.md
+!apple-touch-icon*
+!mstile*
+!android-chrome*
+!favicon*
+!browserconfig.xml
+!manifest.json
